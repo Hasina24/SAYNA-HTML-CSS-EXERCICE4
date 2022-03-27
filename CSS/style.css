@@ -1,0 +1,14 @@
+/*W-Bonus*/
+
+header {
+    background-color: #B11313;
+}
+
+@font-face {
+    font-family: FA;
+    src: url("../DOCUMENT/Far-From\ Homecoming\ Updated.otf");
+}
+
+section h1 {
+    padding-left: 15%;
+}
