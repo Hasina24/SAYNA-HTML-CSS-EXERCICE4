@@ -1,0 +1,41 @@
+header {
+    padding-bottom: 1%;
+}
+
+footer {
+    margin-top: -0.2%;
+    background-color: #000000;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 16px;
+    font-size: x-small;
+}
+
+
+/*Responsive*/
+
+#menu-mobile {
+    display: none;
+}
+
+#information-mobile {
+    display: none;
+}
+
+@media only screen and (max-width:760px) {
+    #menu-mobile {
+        display: block;
+    }
+    #menu-web {
+        display: none;
+    }
+    #information-mobile {
+        display: block;
+    }
+    #information-web {
+        display: none;
+    }
+}

@@ -1,0 +1,101 @@
+@font-face {
+    font-family: far-from homecomming;
+    src: url("../DOCUMENT/Far-From\ Homecoming\ Updated.otf");
+}
+
+header {
+    background-color: #B11313;
+    padding-bottom: 1%;
+}
+
+#batman {
+    margin-top: -30%;
+    margin-bottom: 0%;
+    background-image: url(../ASSETS/Illustration/img35.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#batman h1 {
+    padding-left: 15%;
+    padding-top: 35%;
+    color: #FFFFFF;
+    font-family: 'far-from homecomming';
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+#batman p {
+    margin-top: 2%;
+    padding-left: 15%;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: larger;
+    font-weight: 600;
+}
+
+footer {
+    margin-top: -1.5%;
+    background-color: #000000;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 16px;
+    font-size: x-small;
+}
+
+
+/*Responsive */
+
+#menu-mobile {
+    display: none;
+}
+
+#mobile {
+    display: none;
+}
+
+#batman-mobile {
+    display: none;
+}
+
+#information-mobile {
+    display: none;
+}
+
+@media only screen and (max-width:760px) {
+    #menu-mobile {
+        display: block;
+    }
+    #menu-web {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+    #web {
+        display: none;
+    }
+    #batman-mobile {
+        display: block;
+    }
+    #batman-web {
+        display: none;
+    }
+    #information-mobile {
+        display: block;
+    }
+    #information-web {
+        display: none;
+    }
+}
+
+.asdfhg {
+    color: #FFFFFF;
+    color: #000000;
+    color: #B11313;
+    color: #F1C530;
+    color: #114C92;
+}
