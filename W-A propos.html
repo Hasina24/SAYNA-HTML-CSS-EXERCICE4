@@ -5,11 +5,273 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No Way Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/W-A propos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>W-A propos</title>
 </head>
 
 <body>
     <!--Navigationbar-->
+    <header id="menu-web">
+        <!--menu Web-->
+        <div class="navbar" style="background-color: #B11313;padding-bottom: 2%;">
+            <div class="row">
+                <div class="col">
+                    <img src="./ASSETS/Logo/logo1.png" alt="logo1" style="padding: 0% 80%;display: flex;"></div>
+                <div class="col">
+                    <img src="./ASSETS/Logo/logo2.png" alt="logo2" style="padding: 15% 80%;display: flex;"></div>
+                <div class="col">
+                    <img src="./ASSETS/Logo/logo3.png" alt="logo3" height="50%" width="75%" style="display: flex;"></div>
+                <div class="col">
+                    <a href="W-Home.html" style="font-weight: bold;text-decoration: none;color: #FFFFFF;padding: 1%;margin-left: 80%;display: block;">Accueil</a>
+                </div>
+                <div class="col">
+                    <a href="W-Adversaire.html" style="font-weight: bold;text-decoration: none;color: #FFFFFF;padding: 1%;text-align: center;margin-left: 80%;display: block;">Adversaires</a>
+                </div>
+                <div class="col">
+                    <a href="W-Héros.html" style="font-weight: bold;text-decoration: none;color: #FFFFFF;padding: 1%;text-align: center;margin-left: 80%;padding-right: 80%;display: block;">Héros</a>
+                </div>
+                <div class="col">
+                    <a href=" W-A propos.html " style="font-weight: bolder;text-decoration: none;color: #FFFFFF;padding: 1%;text-align: end;display: block;padding-left: 90%;">Apropos</a>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </header>
+    <!--menu mobile-->
+    <header id="menu-mobile" class="header" style="background-color: #B11313;">
+        <div class="navbar">
+            <div class="row">
+                <div class="col"> <img src="./ASSETS/Logo/logo1.png" alt="logo1" style="display: flex;"></div>
+                <div class="col"><img src="./ASSETS/Logo/logo2.png" alt="logo2" style="display: flex;"></div>
+                <div class="col"><img src="./ASSETS/Logo/logo3.png" alt="logo3" height="50%" width="75%" style="display: flex;"></div>
+            </div>
+            <div class="col">
+                <a href=""><i class="fa-solid fa-ellipsis" style="color: #FFFFFF;padding-left: 90%;padding-bottom: 2%;"></i></a>
+                <ul class="dropdown-menu ">
+                    <li>
+                        <a class="dropdown-item " href="# ">Accueil</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="W-Adversaire.html">Adversaires</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="W-Héros.html ">Héros</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="W-A propos.html">A propos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Spider-web-->
+    <section>
+        <div id="Spider-web">
+            <div class="row" style="background-color: #F1C530;margin-top: -2%;">
+                <div class="col" style="padding: 20% 0% 5% 10%;">
+                    <h1>LA TOILE</h1>
+                    <h3>Driiing driiing petite antenne!</h3>
+                </div>
+                <div class="col">
+                    <img src="Assets/Illustration/img5.png" alt="img5" style="height: 80%; padding-right: -10%;transform: scale(-1,1);">
+                </div>
+            </div>
+            <div class="row" style="background-color: #B11313;">
+                <div class="col" style="padding: 10%;">
+                    <h1>LA PETITE ANTENNE</h1>
+                    <p style="padding-top: 2%;">Envie de laisser un motà ton araignée préférée.</p>
+                    <p>Dépose ton message sur le web et on s'occupe de tout!</p>
+                    <img src="Assets/Illustration/img34.png" alt="img34" style="padding-top: 10%;">
+                </div>
+                <!--forms-->
+                <div class="col" style="padding: 20% 10% 20% 10%;">
+                    <input type="text" class="form-control" placeholder="Nom" style="background-color: #B11313;border-radius: 20px;" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                    <br>
+                    <input type="text" class="form-control" placeholder="Prénom" aria-label="Example text with button addon" aria-describedby="button-addon1" style="background-color: #B11313;border-radius: 20px;">
+                    <br>
+                    <input type="text" class="form-control" placeholder="Adresse email" aria-label="Example text with button addon" aria-describedby="button-addon1" style="background-color: #B11313;border-radius: 20px;">
+                    <br>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" style="background-color: #B11313;border-radius: 15px;padding-bottom: 15%;"></textarea>
+                    <br>
+                    <button type="button" class="btn btn-outline-light" style="padding: 1% 20%;margin: 0 20%; border-radius: 10px;"><p>Envoyer</p></button>
+                </div>
+            </div>
+            <!--text-->
+            <div class="row" style="background-color: #114C92;">
+                <div class="row" style="margin-bottom: 8%;">
+                    <div class="col" style="padding: 5% 5% 10% 10%;">
+                        <h1>SAYNAXMARVEL</h1>
+                        <br>
+                        <p>Créé parleslégendaire Stan Lee et Steve Ditko, le héros est apparu pour la</p>
+                        <p>première fois en1962 dans les planches du comics The Amazing Fantasy</p>
+                        <p>#15. Avant son intégration dans le Marvel Cinematic Universe (MCU) et ses</p>
+                        <p>premières sorties au cinéma, le personage jouissait déjà d'une forte</p>
+                        <p>popularité auprès des amateurs de super-héros. Celas'explique grâce à un</p>
+                        <p>univers riche et un personnagecomplexeque l'on retrouve souent</p>
+                        <p>confronté à des histoires tragiques. Mais le personnage de Spiderman n'est</p>
+                        <p>pas la seule explication de ce succès: la qualité des comics tient au moins</p>
+                        <p>autant à l'homme araignée qu'à ses redoutables ennemis et ses iconiques</p>
+                        <p>alliés qui viennent enrichir cet univers singulier</p>
+                        <br>
+                        <p>Au cours de 60 ans d'histoire, Spidermen avécu des aventures incroyables,</p>
+                        <p>certaines sont même restéees gravées au panthéon Marvel. Parmi celle-ci,</p>
+                        <p>on compte notammentla fameuse saga du clone ou celle du costume noir,</p>
+                        <p>mais aussi des crossovers dans lesquels le super-héros tient un rôle majeur</p>
+                        <p>comme dans Secret Wars ou plus récemment dans Civil War. Souvent, et en</p>
+                        <p>particulier dans ces grands récits, ses ennemis et ses alliés viennent enrichir</p>
+                        <p>son univers</p>
+                        <br>
+                        <p style="font-weight:15;">Retrouve nous sur les réseaux!</p>
+                    </div>
+                    <div class="col" style="padding: 12% 10% 10% 5%;">
+                        <p>Tout le mmonde arrive à s'idebtifier à ce héro et c'est pourquoi nous avons</p>
+                        <p>souhaité faire une collaboration!</p>
+                        <p>Cette collaboration est la première plus grande série. L'univers ed la pop</p>
+                        <p>culture est une religion chez SAYNA. Nous aimons à la fois la richesse, mais</p>
+                        <p>surtout toute les valeurs qu'elles dégagent:</p>
+                        <p>. Partage</p>
+                        <p>. Liberté</p>
+                        <p>. Entraide</p>
+                        <p>. ...</p>
+                        <br>
+                        <p>La pop culture fait désormais partie intégrante de notre histoire et nous</p>
+                        <p>pouvons nous appuyer dessus pour éveiller nos esprits.</p>
+                        <p>L'univers de SAYNA est toout aussi riche! De nombreuses aventures</p>
+                        <p>attendent ceux d'entre voous qui cherchent à se dépasser et explorer des</p>
+                        <p>frontières inconnus.</p>
+                        <br>
+                        <p>L'aventure ne fait que commencer, alors crampone-toi!</p>
+                    </div>
+                    <!--buttons social media-->
+                    <div class="row" style="margin-top: -8%;">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light" style="padding: 1% 20%;margin: 0 20%; border-radius: 10px;"><p>Facebook</p></button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light" style="padding: 1% 20%;margin: 0 20%; border-radius: 10px;"><p>Instagram</p></button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light" style="padding: 1% 20%;margin: 0 20%; border-radius: 10px;"><p>Youtube</p></button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light" style="padding: 1% 20%;margin: 0 20%; border-radius: 10px;"><p>marvel.com</p></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <!--information-web-->
+        <section id="information-web">
+            <div id="information ">
+                <div class="row justify-content-md-center ">
+                    <div class="col ">
+                        <p style="color: #FFFFFF;padding-left: 35%; ">Mobile app</p>
+                    </div>
+                    <div class="col-md-auto ">
+                        <p style="color: #FFFFFF; ">Polique de confidentialité</p>
+                    </div>
+                    <div class="col ">
+                        <p style="color: #FFFFFF; ">Cokkies</p>
+                    </div>
+                    <div class="col ">
+                        <img src="./ASSETS/Logo/logo1.png " alt="logo1 " style="padding: 0% 80%;display: flex; ">
+                    </div>
+                    <div class="col ">
+                        <img src="./ASSETS/Logo/logo2.png " alt="logo2 " style="padding: 0% 0%;display: flex; ">
+                    </div>
+                    <div class="col ">
+                        <img src="./ASSETS/Logo/logo3.png " alt="logo3 " height="50% " width="70% " style="display: flex;padding: 0% 0%;margin-right: 45%; ">
+                    </div>
+                    <div class=" col ">
+                        <p style="color:#FFFFFF; ">Contact</p>
+                    </div>
+                    <div class="col ">
+                        <p style="color: #FFFFFF; ">Blog</p>
+                    </div>
+                    <div class="col ">
+                        <div class="dropdown "><button class="btn btn-secondary dropdown-toggle " type="button " id="dropdownMenuButton2 " data-bs-toggle="dropdown " aria-expanded="false " style="border-radius:4px;border-color: #B11313;background-color:
+                   #B11313;padding-left: 4%;margin-top: 2%;padding-right: 4%; "> Langue
+                        </button>
+                            <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1 ">
+                                <li>
+                                    <a class="dropdown-item " href="# ">langue</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item " href="# ">langue</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item " href="# ">langue</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--information-mobile-->
+        <section id="information-mobile " class="info" style="display: none;">
+            <div id="information ">
+                <div class="row ">
+                    <div class="col ">
+                        <p style="color: #FFFFFF; ">Mobile app</p>
+                        <p style="color: #FFFFFF; ">Polique de confidentialité</p>
+                        <p style="color: #FFFFFF; ">Cokkies</p>
+                        <p style="color:#FFFFFF; ">Contact</p>
+                        <p style="color: #FFFFFF; ">Blog</p>
+                    </div>
+                    <div class="col ">
+                        <div class="dropdown "><button class="btn btn-secondary dropdown-toggle " type="button " id="dropdownMenuButton2 " data-bs-toggle="dropdown " aria-expanded="false " style="border-radius:4px;border-color: #B11313;background-color:
+                    #B11313; ">
+                        Langue
+                      </button>
+                            <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1 ">
+                                <li>
+                                    <a class="dropdown-item " href="# ">langue</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item " href="# ">langue</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item " href="# ">langue</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col " style="padding-left: 50%;margin: 0%;text-align: center; ">
+                            <img src="./ASSETS/Logo/logo1.png " alt="logo1 " style="display: flex; ">
+                        </div>
+                        <div class="col " style="padding: 0%;margin: 0%;text-align: center; ">
+                            <img src="./ASSETS/Logo/logo2.png " alt="logo2 " style="padding: 0% 0%;display: flex; ">
+                        </div>
+                        <div class="col " style="padding-right: 20%;margin: 0%;text-align: center; ">
+                            <img src="./ASSETS/Logo/logo3.png " alt="logo3 " height="50% " width="70% " style="display: flex;padding: 0% 0%;margin-right: 45%; ">
+                        </div>
+                    </div>
+        </section>
+        <section id="media ">
+            <div class="row ">
+                <div class="col-row " style="padding: 4% 0%; text-align: center; ">
+                    <img src="./ASSETS/Logo/logof.png " alt="logof " style="background-color: #B11313; border-radius:50%;padding: 1% 1%; ">
+                    <img src="./ASSETS/Logo/logoi.png " alt="logoi " style="background-color: #B11313; border-radius:100%;padding: 1% 1%; ">
+                    <img src="./ASSETS/Logo/logot.png " alt="logot " style="background-color: #B11313; border-radius: 100%;padding: 1% 1%; ">
+                    <img src="./ASSETS/Logo/logoy.png " alt="logoy " style="background-color: #B11313; border-radius: 100%;padding: 1% 1%; ">
+                </div>
+            </div>
+        </section>
+        <section>
+            <p style="color: #FFFFFF;font-family: 'Montserrat';font-size: 4px;text-align: center; ">&copy;SaynaXMarvel,INC.2022.We love our users!</p>
+        </section>
+
+    </footer>
 </body>
 
 </html>
