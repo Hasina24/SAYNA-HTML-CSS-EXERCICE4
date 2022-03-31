@@ -9,7 +9,7 @@ header {
 }
 
 #batman {
-    margin-top: -30%;
+    margin-top: -28%;
     margin-bottom: 0%;
     background-image: url(../ASSETS/Illustration/img35.png);
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ header {
 }
 
 #batman h1 {
-    padding-left: 15%;
+    padding-left: 30%;
     padding-top: 35%;
     color: #FFFFFF;
     font-family: 'far-from homecomming';
@@ -26,8 +26,9 @@ header {
 }
 
 #batman p {
-    margin-top: 2%;
-    padding-left: 15%;
+    margin-top: 1%;
+    padding-left: 30%;
+    padding-bottom: 4%;
     color: #FFFFFF;
     font-family: 'Montserrat';
     font-size: larger;
@@ -47,7 +48,7 @@ footer p {
 }
 
 
-/*Responsive */
+/*Responsive*/
 
 #menu-mobile {
     display: none;

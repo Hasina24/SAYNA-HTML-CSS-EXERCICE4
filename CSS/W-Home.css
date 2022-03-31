@@ -7,8 +7,31 @@ header {
     padding-bottom: 1%;
 }
 
+h1 {
+    color: #FFFFFF;
+    text-align: start;
+    font-family: 'Far-from homecomming';
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-weight: 20px;
+    font-family: 'Montserrat';
+    padding-left: 2%;
+}
+
+p {
+    color: #FFFFFF;
+    margin: 0%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 12px;
+    padding-left: 15%;
+}
+
 footer {
-    margin-top: -0.2%;
     background-color: #000000;
 }
 
@@ -26,10 +49,6 @@ footer p {
     display: none;
 }
 
-#spiderman-mobile {
-    display: none;
-}
-
 #information-mobile {
     display: none;
 }
@@ -39,12 +58,6 @@ footer p {
         display: block;
     }
     #menu-web {
-        display: none;
-    }
-    #spiderman-mobile {
-        display: block;
-    }
-    #spiderman-web {
         display: none;
     }
     #information-mobile {

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: far-from homecomming;
+    src: url("../DOCUMENT/Far-From\ Homecoming\ Updated.otf");
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: start;
+    font-family: 'Far-from homecomming';
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: 2px;
+    font-family: 'Montserrat';
+    padding-bottom: 12%;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-weight: 20px;
+    font-family: 'Montserrat';
+    padding-left: 2%;
+}
+
+p {
+    margin: 0%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 12px;
+    padding-left: 15%;
+}
