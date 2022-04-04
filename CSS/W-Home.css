@@ -49,7 +49,19 @@ footer p {
     display: none;
 }
 
+#spider-man-mobile {
+    display: none;
+}
+
+#forms-mobile {
+    display: none;
+}
+
 #information-mobile {
+    display: none;
+}
+
+#mobile {
     display: none;
 }
 
@@ -60,10 +72,35 @@ footer p {
     #menu-web {
         display: none;
     }
+    #spider-man-mobile {
+        display: block;
+    }
+    #spider-man-web {
+        display: none;
+    }
+    #forms-mobile {
+        display: block;
+    }
+    #forms-web {
+        display: none;
+    }
     #information-mobile {
         display: block;
     }
     #information-web {
+        display: none;
+    }
+    #mobile {
+        display: block;
+        position: absolute;
+        width: 30%;
+        margin-top: -8%;
+        margin-left: 45%;
+        margin-right: 35%;
+        height: 10%;
+        padding-bottom: 15%;
+    }
+    #web {
         display: none;
     }
 }

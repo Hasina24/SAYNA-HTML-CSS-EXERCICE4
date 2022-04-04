@@ -26,7 +26,23 @@ footer p {
     display: none;
 }
 
-#spiderman-mobile {
+#Spiderman-mobile {
+    display: none;
+}
+
+#contenair-mobile {
+    display: none;
+}
+
+#main-mobile {
+    display: none;
+}
+
+#avengers-mobile {
+    display: none;
+}
+
+#block-mobile {
     display: none;
 }
 
@@ -41,10 +57,34 @@ footer p {
     #menu-web {
         display: none;
     }
-    #spiderman-mobile {
+    #Spiderman-mobile {
         display: block;
     }
-    #spiderman-web {
+    #Spiderman-web {
+        display: none;
+    }
+    #contenair-mobile {
+        display: flex;
+    }
+    #contenair-web {
+        display: none;
+    }
+    #main-mobile {
+        display: flex;
+    }
+    #main-web {
+        display: none;
+    }
+    #avengers-mobile {
+        display: block;
+    }
+    #avengers-web {
+        display: none;
+    }
+    #block-mobile {
+        display: block;
+    }
+    #block-web {
         display: none;
     }
     #information-mobile {
