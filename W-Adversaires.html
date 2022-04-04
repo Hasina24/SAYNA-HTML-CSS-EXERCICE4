@@ -16,7 +16,8 @@
 
 <body>
     <!--Navigationbar-->
-    <header style="background-color: #F1C530;">
+    <!--header-web-->
+    <header id="header-web" style="background-color: #F1C530;">
         <div class="row">
             <div class="col">
                 <img src="./Assets/Logo/logo1.png" alt="logo1">
@@ -24,24 +25,36 @@
                 <img src="./Assets/Logo/logo3.png" alt="logo3">
             </div>
             <div class="col">
-                <a href="" style="font-weight: bold;">Accueil</a>
-                <a href="" style="font-weight: bold;">Adversaires</a>
-                <a href="" style="font-weight: bold;">Héros</a>
-                <strong><a href="" style="font-weight: bolder;">A propos</a></strong>
+                <a href="" style="font-weight: bold;text-decoration: none;color: #FFFFFF;">Accueil</a>
+                <a href="" style="font-weight: bold;text-decoration: none;color: #FFFFFF;">Adversaires</a>
+                <a href="" style="font-weight: bold;text-decoration: none;color: #FFFFFF;">Héros</a>
+                <strong><a href="" style="font-weight: bolder;text-decoration: none;color: #FFFFFF;">A propos</a></strong>
             </div>
         </div>
     </header>
-    <!--vilain-web-->
-    <section>
-        <div id="vilain-web" class="row" style="background-image: url(./Assets/Illustration/img7.png);">
-            <div class="col" style="padding: 20% 0% 5% 10%;">
-                <h1>SUPER VILAINS</h1>
-                <h2 style="margin-top:2%;font-weight: 15px;">Ce n'est jamais blanc ou noir, méchant ou gentil!</h2>
+    <!--header-mobile-->
+    <header id="header-mobile" style="background-image: url(./Assets/Illustration/img7.png);background-size: cover;padding: 0% 15% 0% 0%;">
+        <div class="row">
+            <div class="col">
+                <img src="./Assets/Logo/logo1.png" alt="logo1" style="height: 60%;margin-left: 10%;">
+                <img src="./Assets/Logo/logo2.png" alt="logo2" style="height:15%;">
+                <img src="./Assets/Logo/logo3.png" alt="logo3" style="height: 46%;position: static;;">
+            </div>
+            <div class="col">
+                <i class="fas fa-ellipsis" style="color: #FFFFFF;height: 20px; width: 30%;margin-left: 90%;"></i>
             </div>
         </div>
+        <h1 style="position:static;margin-left: 8%;margin-top: 8%;">SUPER VILAINS</h1>
+        <h2 style="margin-top:2%;font-weight: 10px;color: #FFFFFF;position: static;margin-left: 4%;font-size: 14px;">Ce n'est jamais blanc ou noir, méchant ou gentil!</h2>
+    </header>
+    <!--vilain-web-->
+    <section id="vilain-web" style="background-image: url(./Assets/Illustration/img7.png);background-size: cover;background-repeat: no-repeat;margin-top: -0.1%;">
+        <h1 style="padding: 23% 8% 12% 2%;font-size: 32px;">SUPER VILAINS</h1>
+        <h2 style="margin-top:-8%;font-weight: 15px;color: #FFFFFF;padding-left: 2%;">Ce n'est jamais blanc ou noir, méchant ou gentil!</h2>
     </section>
+    <!--vilain-mobile-->
     <!--persos-web-->
-    <main id="persos-web">
+    <main id="persos-web" style="margin-top: -1%;">
         <div class="row" style="background-color: #F1C530;padding-top: 5%;">
             <div class="col">
                 <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 1% 10%;">
@@ -50,12 +63,13 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Dennis Carredine</h3>
-                        <p>
-                            <h2>Identité:</h2>Inspiré du Cambrioleur</p>
-                        <p>
-                            <h2>Capacités:</h2>Humain sans caractéristique particulière</p>
-                        <p>
-                            <h2>Objectif:</h2>Mi-temps entre escroc</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 30%;margin-top:-23%;">Inspiré du Cambrioleur</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Humain sans</p>
+                        <p style="margin-top: 1%;">caractéristique particulière</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Mi-temps entre escroc</p>
                         <p>et voleur de voiture à New-York, il</p>
                         <p>est en partie responsable, avec</p>
                         <p>Flint Marco, de la mort de Ben</p>
@@ -63,33 +77,33 @@
                         <p>armé qui a mal tourné. C'est le</p>
                         <p>premier adversaire de Ben Parker</p>
                         <p>qui l'amènera à devenir</p>
-                        <p>Spiderman</p>
+                        <p style="padding-bottom:5%;">Spiderman</p>
                     </div>
 
                 </div>
             </div>
             <div class="col">
-                <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 1% 10%;">
+                <div id="block-white" style="background-color: #F1C530;padding: 0% 8% 0% 4%;margin: 1% 8% 1% 10%;">
                     <div class="col">
                         <img src="./Assets/Illustration/img9.png" alt="img9" style="width: 100%;border: none;">
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Bouffon Vert</h3>
-                        <p>
-                            <h2>Identité:</h2>Norman Osborn</p>
-                        <p>
-                            <h2>Capacités:</h2>Fondateur de Oscorp</p>
-                        <p>Technologie, Serum Super</p>
-                        <p>Soldat, Planeur/Equipements</p>
-                        <p>de hautes technologies</p>
-                        <p>
-                            <h2>Objectif:</h2>Souffarnt d'une</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 30%;margin-top:-23%;">Norman Osborn</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Fondateur de Oscorp</p>
+                        <p style="margin-top: 1%;">Technologie, Serum SuperSoldat, </p>
+                        <p style="margin-top: 1%;"> Planeur/Equipements</p>
+                        <p style="margin-top: 1%;"> de hautes technologies</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Souffarnt d'une</p>
                         <p>dissociation de personnalité</p>
                         <p>après l'injection du sérum, il ne</p>
                         <p>cherche que les chaos et la mort</p>
                         <p>de Spiderman. La personnalité de</p>
                         <p>Norman reste présente, mais</p>
-                        <p>dominée par le bouffon.</p>
+                        <p style="padding-bottom:5%;">dominée par le bouffon.</p>
                     </div>
                 </div>
             </div>
@@ -100,21 +114,21 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Dr. Octopus</h3>
-                        <p>
-                            <h2>Identité:</h2>Otto Octavius</p>
-                        <p>
-                            <h2>Capacités:</h2>Chercheur à Oscorp</p>
-                        <p>Technologies, Tentacules</p>
-                        <p>mécaniques contôles par puce</p>
-                        <p>neuronale</p>
-                        <p>
-                            <h2>Objectif:</h2>Suite à un accident lors</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 30%;margin-top:-23%;">Otto Octavius</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Chercheur à Oscorp</p>
+                        <p style="margin-top: 1%;">Technologies, Tentacules</p>
+                        <p style="margin-top: 1%;"> mécaniques contôles par puce</p>
+                        <p style="margin-top: 1%;"> neuronale</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Suite à un accident lors</p>
                         <p>d'une expérience, sa femme</p>
                         <p>meurt et son équipement prend</p>
                         <p>le contrôle de son esprit le</p>
                         <p>rendant plus violent. Pensant que</p>
                         <p>Spiderman en est l'origine, il</p>
-                        <p>souhaite le voir mort</p>
+                        <p style="padding-bottom:5%;">souhaite le voir mort</p>
                     </div>
                 </div>
             </div>
@@ -129,21 +143,21 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Homme-sable</h3>
-                        <p>
-                            <h2>Identité:</h2>Flint Marco</p>
-                        <p>
-                            <h2>Capacités:</h2>Change son corps en</p>
-                        <p>sable, contrôle individuellement</p>
-                        <p>les molécules de sable</p>
-                        <p>
-                            <h2>Objectif:</h2>Sauver sa fille atteint de</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 30%;margin-top:-23%;">Flint Marco</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Change son corps en</p>
+                        <p style="margin-top: 1%;">sable, contrôle individuellement</p>
+                        <p style="margin-top: 1%;"> les molécules de sable</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Sauver sa fille atteint de</p>
                         <p>maladie grave est son unique</p>
                         <p>préoccupation, même après son</p>
                         <p>accident l'ayant changé en</p>
                         <p>homme-sable. Par manque</p>
                         <p>d'argent, il devient criminel</p>
                         <p>malgrè lui et enchaine les</p>
-                        <p>mauvaises décisions</p>
+                        <p style="padding-bottom:5%;">mauvaises décisions</p>
                     </div>
                 </div>
 
@@ -156,21 +170,22 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Bouffon Vert II</h3>
-                        <p>
-                            <h2>Identité:</h2>Harry Osborn</p>
-                        <p>
-                            <h2>Capacités:</h2>Dirigeant de Oscorp</p>
-                        <p>Technologie, Serum Super</p>
-                        <p>Soldat, Planeur/Equipements</p>
-                        <p>de hautes technologies</p>
-                        <p>
-                            <h2>Objectif:</h2>Meilleur ami de Peter.</p>
-                        <P>Souffrant d'une dissociation de</P>
-                        <p> personnalité après l'injection du</p>
-                        <p> sérum (comme son père), il ne</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 30%;margin-top:-23%;">Harry Osborn</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Dirigeant de Oscorp</p>
+                        <p style="margin-top: 1%;">Technologie, Serum Super</p>
+                        <p style="margin-top: 1%;"> Soldat, Planeur/Equipements</p>
+                        <p style="margin-top: 1%;"> de hautes technologies</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Meilleur ami de Peter.</p>
+                        <p>Souffrant d'une dissociation de</p>
+                        <p>personnalité après l'injection du</p>
+                        <p>sérum (comme son père), il ne</p>
                         <p>cherche que la mort de</p>
                         <p>Spiderman, tenub responsable de la</p>
-                        <p>mort de son père.</p>
+                        <p>malgrè lui et enchaine les</p>
+                        <p style="padding-bottom:5%;">mort de son père.</p>
                     </div>
                 </div>
 
@@ -183,27 +198,26 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Venom</h3>
-                        <p>
-                            <h2>Identité:</h2>symbiote|Eddie Brock</p>
-                        <p>
-                            <h2>Capacités:</h2>Force surhumaine,</p>
-                        <p>Matérialiser des armes ou objets,</p>
-                        <p>Résistance importante</p>
-                        <p>
-                            <h2>Objectif:</h2>Extraterrestre se liant à</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 30%;margin-top:-23%;">symbiote|Eddie Brock</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Force surhumaine,</p>
+                        <p style="margin-top: 1%;">Matérialiser des armes ou objets,</p>
+                        <p style="margin-top: 1%;">Résistance importante</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Extraterrestre se liant à</p>
                         <p>un journaliste d'investigation, il</p>
                         <p>est l'anti Héro par excellence. A la</p>
-                        <p>fois terrifiant et violent, mais</p>
+                        <p> foisterrifiant et violent, mais</p>
                         <p>animé par le sentiment de justice</p>
                         <p>d'Eddie, mieux vaut ne pas en</p>
-                        <p>faire son ennemi.</p>
+                        <p style="padding-bottom:5%;">faire son ennemi.</p>
                     </div>
                 </div>
 
             </div>
         </div>
         <div class="row" style="background-color: #F1C530;">
-            <!--Lézard-->
             <div class="col">
                 <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 4% 10%; ">
                     <div class="col">
@@ -211,21 +225,21 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Lézard</h3>
-                        <p>
-                            <h2>Identité:</h2>Dr. Curtis Connors</p>
-                        <p>
-                            <h2>Capacités:</h2>Chercheur Oscorp</p>
-                        <p>Technologie, Forec surhumaine</p>
-                        <p>et Aptitudes reptiliennes</p>
-                        <p>
-                            <h2>Objectif:</h2>Animé par le désir de</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 30%;margin-top:-23%;">Dr. Curtis Connors</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Chercheur Oscorp</p>
+                        <p style="margin-top: 1%;">Technologie, Force surhumaine</p>
+                        <p style="margin-top: 1%;">et Aptitudes reptiliennes</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Animé par le désir de</p>
                         <p>sauvé les maux du corps humain,il</p>
                         <p>dévellope un sérum à partir</p>
                         <p>d'ADN de lézard. Ce premier essai</p>
                         <p>devait faire repousser son bras</p>
                         <p>amputé, mais il se transforme</p>
                         <p>entièrement en lézard. Son</p>
-                        <p>souhait, étendre cette évolution.</p>
+                        <p style="padding-bottom:5%;">souhait, étendre cette évolution.</p>
                     </div>
                 </div>
             </div>
@@ -237,21 +251,21 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Electro</h3>
-                        <p>
-                            <h2>Identité:</h2>Maxwell Dillon</p>
-                        <p>
-                            <h2>Capacités:</h2>Ingénieur Oscorp</p>
-                        <p>Technologie,Manipulation et</p>
-                        <p>Stockage de l'électricité</p>
-                        <p>
-                            <h2>Objectif:</h2>Une expérience à</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 30%;margin-top:-23%;">Maxwell Dillon</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Ingénieur Oscorp</p>
+                        <p style="margin-top: 1%;">Technologie,Manipulation et</p>
+                        <p style="margin-top: 1%;">Stockage de l'électricité</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Une expérience à</p>
                         <p>Oscorp tourne mal et transforme</p>
                         <p>son corps en condensateur</p>
                         <p>capable de manipuler l'électricité.</p>
                         <p>Fan obsessionnel de Spiderman,</p>
                         <p>son pouvoir le change en</p>
                         <p>adversaire rempli de colère et</p>
-                        <p>cherchant le défaite de son idole.</p>>
+                        <p style="padding-bottom:5%;">cherchant le défaite de son idole.</p>
                     </div>
                 </div>
 
@@ -263,21 +277,21 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Rhino</h3>
-                        <p>
-                            <h2>Identité:</h2>Aleksei Sytsevich</p>
-                        <p>
-                            <h2>Capacités:</h2>Costume mécanique</p>
-                        <p>en forme de Rhinocéros puissant</p>
-                        <p>
-                            <h2>Objectif:</h2>Mafieux russe qui a</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Aleksei Sytsevich</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Costume mécanique</p>
+                        <p style="margin-top: 1%;">en forme de Rhinocéros puissant</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Mafieux russe qui a</p>
                         <p>détourné un camion blindé</p>
-                        <p>d'Oscorp contenant des fioles de</p>
+                        <p>d'Oscorp contenant des fioles der</p>
                         <p>plutonium, mais désarmé et</p>
                         <p>vaincu par Spiderman, il est</p>
                         <p>ensuite recruté par Harry Osborn,</p>
                         <p>premier membre d'une nouvelle</p>
                         <p>équipe créée pour combattre</p>
-                        <p>Spiderman et faire des ravages.</p>
+                        <p style="padding-bottom:5%;">Spiderman et faire des ravages.</p>
                     </div>
                 </div>
 
@@ -291,21 +305,21 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Vautour</h3>
-                        <p>
-                            <h2>Identité:</h2>Adrian Toomes</p>
-                        <p>
-                            <h2>Capacités:</h2>Costume mécanique</p>
-                        <p>de vautour,arme extraterrestre</p>
-                        <p>
-                            <h2>Objectif:</h2>il se converti en</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 15%;margin-top:-20%;">Adrian Toomes</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 23%;margin-top:-20%;">Costume mécanique</p>
+                        <p style="margin-top: 1%;">de vautour,arme extraterrestre</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:18%;margin-top:-20%;">il se converti en</p>
                         <p>marchand d'arme extraterrestre</p>
                         <p>suite à la faillite de don entreprise.</p>
                         <p>Père de famille fortuné le jour,</p>
                         <p>voleur d'arme extraterrestre la</p>
                         <p>nuit, il mène une double vie.</p>
-                        <p>Spiderman se metten en travers</p>
+                        <p>Spiderman se mette en travers</p>
                         <p>de son business, il souhaite la</p>
-                        <p>mort du justicier.</p>
+                        <p style="padding-bottom:5%;">mort du justicier.</p>
                     </div>
                 </div>
             </div>
@@ -316,13 +330,13 @@
                     </div>
                     <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
                         <h3 style="text-align: center;">Mysterio</h3>
-                        <p>
-                            <h2>Identité:</h2>Quentin Beck</p>
-                        <p>
-                            <h2>Capacités:</h2>Intelligent, costume</p>
-                        <p>Hautes Technologie,Drones.</p>
-                        <p>
-                            <h2>Objectif:</h2>Ancien employé de</p>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 15%;margin-top:-20%;">Quentin Beck</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left:23%;margin-top:-20%;">Intelligent, costume</p>
+                        <p style="margin-top: 1%;">Hautes Technologie,Drones.</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:18%;margin-top:-20%;">Ancien employé de</p>
                         <p>Stark Industries il cherche à</p>
                         <p>remplacer Iron Man et devenir un</p>
                         <p>symbole de justice. Pour cela il</p>
@@ -330,25 +344,308 @@
                         <p>utilisant des illusions et une</p>
                         <p>technologie avancée. Spiderman</p>
                         <p>découvrant son plan, il devient un</p>
-                        <p>adverssaire à la hauteur du héro.</p>
+                        <p style="padding-bottom:5%;">adverssaire à la hauteur du héro.</p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <!--persos-mobile-->
+    <main id="persos-mobile" class="row" style="margin-top: -1%;background-color: #F1C530;padding-top: 5%;">
+        <div id="block-white" style="background-color: #F1C530;">
+            <div class="col">
+                <img src="./Assets/Illustration/img8.png" alt="img8" style="width: 100%;border: none;">
+            </div>
+            <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                <h3 style="text-align: center;">Dennis Carredine</h3>
+                <h2>Identité:</h2>
+                <p style="margin-left: 30%;margin-top:-23%;">Inspiré du Cambrioleur</p>
+                <h2 style="margin-top: 10%;">Capacités:</h2>
+                <p style="margin-left: 40%;margin-top:-23%;">Humain sans</p>
+                <p style="margin-top: 1%;">caractéristique particulière</p>
+                <h2 style="margin-top: 10%;">Objectif:</h2>
+                <p style="margin-left:30%;margin-top:-23%;">Mi-temps entre escroc</p>
+                <p>et voleur de voiture à New-York, il</p>
+                <p>est en partie responsable, avec</p>
+                <p>Flint Marco, de la mort de Ben</p>
+                <p>Parker lors d'un braquage à main</p>
+                <p>armé qui a mal tourné. C'est le</p>
+                <p>premier adversaire de Ben Parker</p>
+                <p>qui l'amènera à devenir</p>
+                <p style="padding-bottom:5%;">Spiderman</p>
+            </div>
 
-    <!--footer-web-->
-    <footer id="footer-web" style="background-color: #000000;">
+        </div>
+        </div>
+        <div id="block-white" style="background-color: #F1C530;">
+            <div class="col">
+                <img src="./Assets/Illustration/img9.png" alt="img9" style="width: 100%;border: none;">
+            </div>
+            <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                <h3 style="text-align: center;">Bouffon Vert</h3>
+                <h2>Identité:</h2>
+                <p style="margin-left: 30%;margin-top:-23%;">Norman Osborn</p>
+                <h2 style="margin-top: 10%;">Capacités:</h2>
+                <p style="margin-left: 40%;margin-top:-23%;">Fondateur de Oscorp</p>
+                <p style="margin-top: 1%;">Technologie, Serum SuperSoldat, </p>
+                <p style="margin-top: 1%;"> Planeur/Equipements</p>
+                <p style="margin-top: 1%;"> de hautes technologies</p>
+                <h2 style="margin-top: 10%;">Objectif:</h2>
+                <p style="margin-left:30%;margin-top:-23%;">Souffarnt d'une</p>
+                <p>dissociation de personnalité</p>
+                <p>après l'injection du sérum, il ne</p>
+                <p>cherche que les chaos et la mort</p>
+                <p>de Spiderman. La personnalité de</p>
+                <p>Norman reste présente, mais</p>
+                <p style="padding-bottom:5%;">dominée par le bouffon.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 4% 10%;">
+                <div class="col">
+                    <img src="./Assets/Illustration/img10.png" alt="img10" style="width: 100%;border: none;">
+                </div>
+                <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                    <h3 style="text-align: center;">Dr. Octopus</h3>
+                    <h2>Identité:</h2>
+                    <p style="margin-left: 30%;margin-top:-23%;">Otto Octavius</p>
+                    <h2 style="margin-top: 10%;">Capacités:</h2>
+                    <p style="margin-left: 40%;margin-top:-23%;">Chercheur à Oscorp</p>
+                    <p style="margin-top: 1%;">Technologies, Tentacules</p>
+                    <p style="margin-top: 1%;"> mécaniques contôles par puce</p>
+                    <p style="margin-top: 1%;"> neuronale</p>
+                    <h2 style="margin-top: 10%;">Objectif:</h2>
+                    <p style="margin-left:30%;margin-top:-23%;">Suite à un accident lors</p>
+                    <p>d'une expérience, sa femme</p>
+                    <p>meurt et son équipement prend</p>
+                    <p>le contrôle de son esprit le</p>
+                    <p>rendant plus violent. Pensant que</p>
+                    <p>Spiderman en est l'origine, il</p>
+                    <p style="padding-bottom:5%;">souhaite le voir mort</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 0% 8% 4% 10%; ">
+                <div class="col">
+                    <img src="./Assets/Illustration/img11.png" alt="img11" style="width: 100%;border: none;">
+                </div>
+                <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                    <h3 style="text-align: center;">Homme-sable</h3>
+                    <h2>Identité:</h2>
+                    <p style="margin-left: 30%;margin-top:-23%;">Flint Marco</p>
+                    <h2 style="margin-top: 10%;">Capacités:</h2>
+                    <p style="margin-left: 40%;margin-top:-23%;">Change son corps en</p>
+                    <p style="margin-top: 1%;">sable, contrôle individuellement</p>
+                    <p style="margin-top: 1%;"> les molécules de sable</p>
+                    <h2 style="margin-top: 10%;">Objectif:</h2>
+                    <p style="margin-left:30%;margin-top:-23%;">Sauver sa fille atteint de</p>
+                    <p>maladie grave est son unique</p>
+                    <p>préoccupation, même après son</p>
+                    <p>accident l'ayant changé en</p>
+                    <p>homme-sable. Par manque</p>
+                    <p>d'argent, il devient criminel</p>
+                    <p>malgrè lui et enchaine les</p>
+                    <p style="padding-bottom:5%;">mauvaises décisions</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col">
+            <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 4% 10%; ">
+                <div class="col">
+                    <img src="./Assets/Illustration/img12.png" alt="img12" style="width: 100%;border: none;">
+                </div>
+                <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                    <h3 style="text-align: center;">Bouffon Vert II</h3>
+                    <h2>Identité:</h2>
+                    <p style="margin-left: 30%;margin-top:-23%;">Harry Osborn</p>
+                    <h2 style="margin-top: 10%;">Capacités:</h2>
+                    <p style="margin-left: 40%;margin-top:-23%;">Dirigeant de Oscorp</p>
+                    <p style="margin-top: 1%;">Technologie, Serum Super</p>
+                    <p style="margin-top: 1%;"> Soldat, Planeur/Equipements</p>
+                    <p style="margin-top: 1%;"> de hautes technologies</p>
+                    <h2 style="margin-top: 10%;">Objectif:</h2>
+                    <p style="margin-left:30%;margin-top:-23%;">Meilleur ami de Peter.</p>
+                    <p>Souffrant d'une dissociation de</p>
+                    <p>personnalité après l'injection du</p>
+                    <p>sérum (comme son père), il ne</p>
+                    <p>cherche que la mort de</p>
+                    <p>Spiderman, tenub responsable de la</p>
+                    <p>malgrè lui et enchaine les</p>
+                    <p style="padding-bottom:5%;">mort de son père.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col">
+            <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 4% 10%; ">
+                <div class="col">
+                    <img src="./Assets/Illustration/img13.png" alt="img13" style="width: 100%;border: none;">
+                </div>
+                <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                    <h3 style="text-align: center;">Venom</h3>
+                    <h2>Identité:</h2>
+                    <p style="margin-left: 30%;margin-top:-23%;">symbiote|Eddie Brock</p>
+                    <h2 style="margin-top: 10%;">Capacités:</h2>
+                    <p style="margin-left: 40%;margin-top:-23%;">Force surhumaine,</p>
+                    <p style="margin-top: 1%;">Matérialiser des armes ou objets,</p>
+                    <p style="margin-top: 1%;">Résistance importante</p>
+                    <h2 style="margin-top: 10%;">Objectif:</h2>
+                    <p style="margin-left:30%;margin-top:-23%;">Extraterrestre se liant à</p>
+                    <p>un journaliste d'investigation, il</p>
+                    <p>est l'anti Héro par excellence. A la</p>
+                    <p> foisterrifiant et violent, mais</p>
+                    <p>animé par le sentiment de justice</p>
+                    <p>d'Eddie, mieux vaut ne pas en</p>
+                    <p style="padding-bottom:5%;">faire son ennemi.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+            <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 4% 10%; ">
+                <div class="col">
+                    <img src="./Assets/Illustration/img14.png" alt="img14" style="width: 100%;border: none;">
+                </div>
+                <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                    <h3 style="text-align: center;">Lézard</h3>
+                    <h2>Identité:</h2>
+                    <p style="margin-left: 30%;margin-top:-23%;">Dr. Curtis Connors</p>
+                    <h2 style="margin-top: 10%;">Capacités:</h2>
+                    <p style="margin-left: 40%;margin-top:-23%;">Chercheur Oscorp</p>
+                    <p style="margin-top: 1%;">Technologie, Force surhumaine</p>
+                    <p style="margin-top: 1%;">et Aptitudes reptiliennes</p>
+                    <h2 style="margin-top: 10%;">Objectif:</h2>
+                    <p style="margin-left:30%;margin-top:-23%;">Animé par le désir de</p>
+                    <p>sauvé les maux du corps humain,il</p>
+                    <p>dévellope un sérum à partir</p>
+                    <p>d'ADN de lézard. Ce premier essai</p>
+                    <p>devait faire repousser son bras</p>
+                    <p>amputé, mais il se transforme</p>
+                    <p>entièrement en lézard. Son</p>
+                    <p style="padding-bottom:5%;">souhait, étendre cette évolution.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 4% 10%; ">
+                <div class="col">
+                    <img src="./Assets/Illustration/img15.png" alt="img15" style="width: 100%;border: none;">
+                </div>
+                <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                    <h3 style="text-align: center;">Electro</h3>
+                    <h2>Identité:</h2>
+                    <p style="margin-left: 30%;margin-top:-23%;">Maxwell Dillon</p>
+                    <h2 style="margin-top: 10%;">Capacités:</h2>
+                    <p style="margin-left: 40%;margin-top:-23%;">Ingénieur Oscorp</p>
+                    <p style="margin-top: 1%;">Technologie,Manipulation et</p>
+                    <p style="margin-top: 1%;">Stockage de l'électricité</p>
+                    <h2 style="margin-top: 10%;">Objectif:</h2>
+                    <p style="margin-left:30%;margin-top:-23%;">Une expérience à</p>
+                    <p>Oscorp tourne mal et transforme</p>
+                    <p>son corps en condensateur</p>
+                    <p>capable de manipuler l'électricité.</p>
+                    <p>Fan obsessionnel de Spiderman,</p>
+                    <p>son pouvoir le change en</p>
+                    <p>adversaire rempli de colère et</p>
+                    <p style="padding-bottom:5%;">cherchant le défaite de son idole.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 4% 10%; ">
+                    <div class="col">
+                        <img src="./Assets/Illustration/img16.png" alt="img16" style="width: 100%;border: none;">
+                    </div>
+                    <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                        <h3 style="text-align: center;">Rhino</h3>
+                        <h2>Identité:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Aleksei Sytsevich</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 40%;margin-top:-23%;">Costume mécanique</p>
+                        <p style="margin-top: 1%;">en forme de Rhinocéros puissant</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:30%;margin-top:-23%;">Mafieux russe qui a</p>
+                        <p>détourné un camion blindé</p>
+                        <p>d'Oscorp contenant des fioles der</p>
+                        <p>plutonium, mais désarmé et</p>
+                        <p>vaincu par Spiderman, il est</p>
+                        <p>ensuite recruté par Harry Osborn,</p>
+                        <p>premier membre d'une nouvelle</p>
+                        <p>équipe créée pour combattre</p>
+                        <p style="padding-bottom:5%;">Spiderman et faire des ravages.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 4% 10%; ">
+                    <div class="col">
+                        <img src="./Assets/Illustration/img17.png" alt="img17" style="width: 100%;border: none;">
+                    </div>
+                    <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                        <h3 style="text-align: center;">Vautour</h3>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 15%;margin-top:-20%;">Adrian Toomes</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left: 23%;margin-top:-20%;">Costume mécanique</p>
+                        <p style="margin-top: 1%;">de vautour,arme extraterrestre</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:18%;margin-top:-20%;">il se converti en</p>
+                        <p>marchand d'arme extraterrestre</p>
+                        <p>suite à la faillite de don entreprise.</p>
+                        <p>Père de famille fortuné le jour,</p>
+                        <p>voleur d'arme extraterrestre la</p>
+                        <p>nuit, il mène une double vie.</p>
+                        <p>Spiderman se mette en travers</p>
+                        <p>de son business, il souhaite la</p>
+                        <p style="padding-bottom:5%;">mort du justicier.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="block-white" style="background-color: #F1C530;padding: 0% 4% 0% 4%;margin: 1% 8% 4% 10%; ">
+                    <div class="col">
+                        <img src="./Assets/Illustration/img18.png" alt="img18" style="width: 100%;border: none;">
+                    </div>
+                    <div class="col" style="border-left: 8px solid black;border-right: 8px solid black;border-bottom: 8px solid black;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;box-shadow: 10px rgba(0, 0, 0, 0.534);">
+                        <h3 style="text-align: center;">Mysterio</h3>
+                        <h2>Identité:</h2>
+                        <p style="margin-left: 15%;margin-top:-20%;">Quentin Beck</p>
+                        <h2 style="margin-top: 10%;">Capacités:</h2>
+                        <p style="margin-left:23%;margin-top:-20%;">Intelligent, costume</p>
+                        <p style="margin-top: 1%;">Hautes Technologie,Drones.</p>
+                        <h2 style="margin-top: 10%;">Objectif:</h2>
+                        <p style="margin-left:18%;margin-top:-20%;">Ancien employé de</p>
+                        <p>Stark Industries il cherche à</p>
+                        <p>remplacer Iron Man et devenir un</p>
+                        <p>symbole de justice. Pour cela il</p>
+                        <p>orchestre des attaques en</p>
+                        <p>utilisant des illusions et une</p>
+                        <p>technologie avancée. Spiderman</p>
+                        <p>découvrant son plan, il devient un</p>
+                        <p style="padding-bottom:5%;">adverssaire à la hauteur du héro.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--information-web-->
+    <footer id="information-web" style="background-color: #000000;">
         <div class="row">
             <div class="col" style="text-align: center; display: inline-flex;">
                 <div class="col">
-                    <p>Mobile app</p>
+                    <p style="color: #FFFFFF;">Mobile app</p>
                 </div>
                 <div class="col">
-                    <p>Politique de confidentialité</p>
+                    <p style="color: #FFFFFF;">Politique de confidentialité</p>
                 </div>
                 <div class="col">
-                    <p>Cookies</p>
+                    <p style="color: #FFFFFF;">Cookies</p>
                 </div>
             </div>
             <div class="col">
@@ -360,10 +657,10 @@
             </div>
             <div class="col" style="display: inline-flex;">
                 <div class="col">
-                    <p>Contact</p>
+                    <p style="color: #FFFFFF;">Contact</p>
                 </div>
                 <div class="col">
-                    <p>Blog</p>
+                    <p style="color: #FFFFFF;">Blog</p>
                 </div>
                 <div class="col">
                     <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #F1C530; border-color: #F1C530;padding-right: 50%; text-align: left; border-radius:4px;margin-top: 2%;">Langue</button>
@@ -377,8 +674,51 @@
             <img src="./Assets/Logo/logot.png" alt="twiter" style="background-color: #F1C530; border-radius: 50%; padding: 1%;">
         </div>
         <div class="row">
-            <p style="text-align: center;">&copy SaynaXMarvel, Inc.2022 We love our users!</p>
+            <p style="text-align: center;opacity: 0.9;">&copy SaynaXMarvel, Inc.2022 We love our users!</p>
         </div>
+    </footer>
+    <!--information-mobile-->
+    <section id="information-mobile " class="info" style="display: none;">
+        <div id="information ">
+            <div class="row ">
+                <div class="col ">
+                    <p style="color: #FFFFFF; ">Mobile app</p>
+                    <p style="color: #FFFFFF; ">Polique de confidentialité</p>
+                    <p style="color: #FFFFFF; ">Cokkies</p>
+                    <p style="color:#FFFFFF; ">Contact</p>
+                    <p style="color: #FFFFFF; ">Blog</p>
+                </div>
+                <div class="col ">
+                    <div class="dropdown "><button class="btn btn-secondary dropdown-toggle " type="button " id="dropdownMenuButton2 " data-bs-toggle="dropdown " aria-expanded="false " style="border-radius:4px;border-color: #F1C530;background-color:
+                        #F1C530; ">
+                            Langue
+                          </button>
+                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1 ">
+                            <li>
+                                <a class="dropdown-item " href="# ">langue</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="# ">langue</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="# ">langue</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col " style="padding-left: 50%;margin: 0%;text-align: center; ">
+                        <img src="./ASSETS/Logo/logo1.png " alt="logo1 " style="display: flex; ">
+                    </div>
+                    <div class="col " style="padding: 0%;margin: 0%;text-align: center; ">
+                        <img src="./ASSETS/Logo/logo2.png " alt="logo2 " style="padding: 0% 0%;display: flex; ">
+                    </div>
+                    <div class="col " style="padding-right: 20%;margin: 0%;text-align: center; ">
+                        <img src="./ASSETS/Logo/logo3.png " alt="logo3 " height="50% " width="70% " style="display: flex;padding: 0% 0%;margin-right: 45%; ">
+                    </div>
+                </div>
+    </section>
+
     </footer>
 </body>
 
